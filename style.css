@@ -277,8 +277,22 @@ QUALITY WORK
 
 */
 
-main .row {
+main .row--quality {
     display: flex;
     justify-content: space-between;
     align-items: center
+}
+
+.quality__work {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.quality__description {
+    width: 50%;
+}
+
+.quality__img--wrapper {
+    width: 50%;
 }
