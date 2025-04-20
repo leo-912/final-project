@@ -330,3 +330,7 @@ main .row--quality {
     width: 160px;
     border: none;
 }
+
+.btn__learn--text {
+    padding: 12px 16px;
+}
