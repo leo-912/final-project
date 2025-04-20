@@ -8,7 +8,7 @@
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -311,14 +311,15 @@ main .row--quality {
     font-weight: 900;
     font-size: 48px;
     letter-spacing: 1.5px;
-    padding: 16px 48px 16px 0;
+    padding: 16px 100px 16px 0;
     color: rgb(36, 62, 99);
+    line-height: 1.25;
 }
 
 .btn__learn {
     background-color: rgb(100, 21, 255);
     color: #ffffff;
-    padding: 8px;
+    padding: 10px 16px;
     border-radius: 500px;
     text-decoration: none;
     font-weight: 700;
@@ -331,6 +332,57 @@ main .row--quality {
     border: none;
 }
 
-.btn__learn--text {
-    padding: 12px 16px;
+/* 
+
+STEPS SECTION 
+
+*/
+
+
+#steps {
+    margin-top: 80px;
+}
+
+main .row--steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.steps__logo {
+    width: 100%;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__description {
+    width: 50%;
+}
+
+.steps__title {
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.steps__header {
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 1.5px;
+    padding: 16px 100px 16px 0;
+    color: rgb(36, 62, 99);
+    line-height: 1.25;
+}
+
+.step {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step__number {
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
 }
