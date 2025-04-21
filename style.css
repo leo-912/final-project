@@ -39,6 +39,13 @@ p {
     line-height: 1.5;
 }
 
+.titles {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: rgb(100, 21, 255);
+}
+
 .nav__logo {
     display: flex;
     align-items: center;
@@ -206,12 +213,6 @@ FEATURES / SERVICES
     text-align: center;
 }
 
-.feature {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 3px;
-}
-
 .feature__service {
     margin : 16px;
     line-height: 1.5;
@@ -283,12 +284,6 @@ main .row--quality {
     align-items: center
 }
 
-.quality__work {
-    font-size: 16px;
-    font-weight: 900;
-    letter-spacing: 3px;
-}
-
 .quality__description {
     width: 50%;
 }
@@ -346,11 +341,13 @@ STEPS SECTION
 main .row--steps {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin-bottom: 80px;
 }
 
 .steps__logo {
     width: 100%;
+    margin-top: 80px;
 }
 
 .steps__img--wrapper {
@@ -359,30 +356,137 @@ main .row--steps {
 
 .steps__description {
     width: 50%;
-}
-
-.steps__title {
-    font-weight: 900;
-    font-size: 16px;
-    letter-spacing: 3px;
+    padding-left: 60px;
 }
 
 .steps__header {
     font-weight: 900;
     font-size: 48px;
     letter-spacing: 1.5px;
-    padding: 16px 100px 16px 0;
     color: rgb(36, 62, 99);
     line-height: 1.25;
+    margin-top: 16px;
 }
 
 .step {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 32px;
 }
 
 .step__number {
-    border-radius: 50%;
-    padding: 20px;
+    font-size: 36px;
+    color: #cbd5e0;
+    font-weight: 600;
+}
+
+.step__title--wrapper {
+    margin-left: 24px;
+    line-height: 1.5;
+    max-width: 320px;
+}
+
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    margin-bottom: 12px;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* 
+
+VALUES 
+
+*/
+
+main .row--values {
     display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.values { 
+    width: 50%;
+    padding: 60px 60px 0 0;
+}
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__logo {
+    width: 100%;
+}
+
+
+.values__header {
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 1.5px;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin-top: 16px;
+}
+
+.values__para {
+    line-height: 1.5;
+    color: #7c8ba1;
+    margin-bottom: 16px;
+    padding: 32px 8px 8px 0;
+    margin-bottom: 50px;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value__title {
+    display: flex;
+}
+
+.value__name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+    padding-top: 8px;
+}
+
+.value__para {
+    color: #7c8ba1;
+    line-height: 1.5;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.value__img--wrapper1 {
+    background-color: #9ae6b4;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.value__img--wrapper2 {
+    background-color: #feb2b2;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.btn__value {
+    margin-top: 48px;
 }
