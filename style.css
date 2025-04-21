@@ -528,11 +528,12 @@ PRICING
     width: 30%;
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .plan2 {
-    background-color: rgb(76, 81, 191);
+    background: linear-gradient(115deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
 .plan__header {
@@ -566,6 +567,9 @@ PRICING
     font-size: 20px;
     font-weight: 700;
     padding-top: 32px;
+    border-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%) 1;
+    border-top: 8px solid;
+    border-radius: 50px;
 }
 
 .plan__title2 {
@@ -573,6 +577,11 @@ PRICING
     font-size: 20px;
     font-weight: 700;
     padding-top: 32px;
+    border-top: linear-gradient(115deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%) solid 5px;
+}
+
+.plan__title3 {
+    border-top: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%) solid 5px;
 }
 
 .plan__price1 {
@@ -632,7 +641,7 @@ PRICING
 
 .Plan__button1 {
     color: #ffffff;
-    background-color: rgb(129, 230, 217);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     border-radius: 50px;
     padding: 16px 50px;
     border: none;
@@ -640,6 +649,13 @@ PRICING
     font-size: 16px;
     letter-spacing: 1px;
     width: 50%;
+    transition: all 300ms;
+}
+
+.Plan__button1:hover {
+    cursor: pointer;
+    transform: translate(1px, -1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .Plan__button2 {
@@ -658,13 +674,11 @@ PRICING
     cursor: pointer;
     transform: translate(1px, -1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    background-color: rgb(254, 178, 178);
-
 }
 
 .Plan__button3 {
     color: #ffffff;
-    background-color: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     border-radius: 50px;
     padding: 16px 50px;
     border: none;
@@ -672,4 +686,11 @@ PRICING
     font-size: 16px;
     letter-spacing: 1px;
     width: 50%;
+    transition: all 300ms;
+}
+
+.Plan__button3:hover {
+    cursor: pointer;
+    transform: translate(1px, -1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
