@@ -72,6 +72,12 @@ li {
     align-items: center;
 }
 
+.nav__link:hover {
+    cursor: pointer;
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+}
+
 .nav__link {
     margin-right: 24px;
     text-decoration: none;
@@ -534,6 +540,7 @@ PRICING
 
 .plan2 {
     background: linear-gradient(115deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 16px;
 }
 
 .plan__header {
@@ -567,9 +574,8 @@ PRICING
     font-size: 20px;
     font-weight: 700;
     padding-top: 32px;
-    border-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%) 1;
-    border-top: 8px solid;
-    border-radius: 50px;
+    border-top: 8px solid rgba(56, 178, 172, 0.74);
+    border-radius: 5px;
 }
 
 .plan__title2 {
@@ -577,11 +583,11 @@ PRICING
     font-size: 20px;
     font-weight: 700;
     padding-top: 32px;
-    border-top: linear-gradient(115deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%) solid 5px;
 }
 
 .plan__title3 {
-    border-top: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%) solid 5px;
+    border-top: 8px solid rgba(245, 101, 101);
+    border-radius: 5px;
 }
 
 .plan__price1 {
