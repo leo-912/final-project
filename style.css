@@ -966,7 +966,23 @@ FOOTER
     line-height: 1.5;
     font-weight: 500;
     position: relative;
-    
+}
+
+
+.footer__link:hover:after {
+    opacity: 1;
+}
+
+.footer__link:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -6px;
+    left: 0;
+    background: #ffffff;
+    transition: all 0.4s ease;
+    opacity: 0;
 }
 
 .footer__divider {
