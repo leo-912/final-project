@@ -193,6 +193,18 @@ header .row {
     transition: border-color 300ms;
 }
 
+.header__email--input::placeholder {
+    font-weight: 500;
+    color: rgb(158, 170, 189);
+}
+
+.header__email--input:focus,
+.header__email--input:active {
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    border-color: rgba(100,21,255);
+}
+
 .header__email--input:hover {
     border-color: rgba(160,174,192);
 }
@@ -276,6 +288,11 @@ FEATURES / SERVICES
     font-weight: 500;
     font-size: 16px;
     margin-top: 16px;
+    max-width: calc(100% - 64px);
+}
+
+.service__para--wrapper {
+    margin: 8px 0 0 16px;
 }
 
 .service__img--wrapper {
@@ -287,7 +304,6 @@ FEATURES / SERVICES
 
 .service__title {
     color: #243e63;
-    font-size: 26px;
 }
 
 .service__img {
@@ -795,6 +811,11 @@ main .row--testimonial {
     margin: 0 12px;
     transition: all 300ms;
     border: none;
+    cursor: pointer;
+}
+
+.testimonial__button:hover {
+    background-color: rgba(226,232,240);
 }
 
 .testimonial__arrow {
@@ -966,6 +987,7 @@ FOOTER
     line-height: 1.5;
     font-weight: 500;
     position: relative;
+    width: max-content;
 }
 
 
