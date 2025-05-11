@@ -6,6 +6,10 @@
     box-sizing: border-box;
     }
 
+section {
+    padding: 0 32px;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -220,7 +224,7 @@ header .row {
 .btn__sign {
     background-color: rgb(100, 21, 255);
     color: #ffffff;
-    padding: 12px 36px;
+    padding: 12px 28px;
     border-radius: 500px;
     text-decoration: none;
     font-weight: 700;
@@ -241,6 +245,8 @@ header .row {
 
 .customer__logos {
     opacity: 0.5;
+    padding-right: 128px;
+    margin-top: 16px;
 }
 
 /* 
@@ -257,6 +263,9 @@ FEATURES / SERVICES
 .feature__service {
     margin : 16px;
     line-height: 1.5;
+    color: rgb(36, 62, 99);
+    font-weight: 900;
+    font-size: 48px;
 }
 
 .features__para {
@@ -1070,4 +1079,134 @@ FOOTER
 .footer__copyright {
     color: #cbd5e0;
     font-weight: 500    ;
+}
+
+/* 
+
+SMALL PHONES, TABLETS, LARGE SMATPHONES 
+
+*/
+
+@media (max-width: 768px) {
+
+    .features {
+        justify-content: center;
+    }
+
+    .feature {
+        width: auto;
+        max-width: 384px;
+    }
+
+    .features__para {
+        font-size: 14px;
+    }
+
+    #quality .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    .quality__para,
+    .steps__description,
+    .values,
+    .testimonials__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .quality__description,
+    .quality__img--wrapper,
+    .steps__description,
+    .steps__img--wrapper,
+    .values,
+    .values__logo,
+    .testimonials__description,
+    .testimonials__logo  {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    #steps .row,
+    .row--testimonial {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__description {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .values__list {
+        margin: 0 auto;
+    }
+
+    .value:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    .value {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row—pricing {
+        margin-top: 40px;
+    }
+
+    .plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plan {
+        margin: 64px 32px 0 0;
+    }
+
+    .testimonial__description {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .testimonial__section {
+
+    }
+
+    .footer__links {
+        justify-content: flex-start;
+    }
+
+    .footer__column {
+        width: calc(100% / 3);
+    }
+
+    .footer__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright, 
+    .footer__social {
+        margin-top: 32px;
+    }
+
+    .footer__social {
+        margin-left: 0px;
+        margin-bottom: 16px;
+    }
+
+    .footer__social--link:first-child {
+        margin-left: 0px;
+    }
+
 }
