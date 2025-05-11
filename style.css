@@ -1171,6 +1171,13 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
     .plan {
         margin: 64px 32px 0 0;
+        width: 100%;
+    }
+
+    .plan__header,
+    .plan__body,
+    .plan__footer{
+        width: 200px;
     }
 
     .testimonial__description {
