@@ -1089,6 +1089,10 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
 @media (max-width: 768px) {
 
+    .nav__links {
+        display: none;
+    }
+    
     .features {
         justify-content: center;
     }
@@ -1171,13 +1175,7 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
     .plan {
         margin: 64px 32px 0 0;
-        width: 100%;
-    }
-
-    .plan__header,
-    .plan__body,
-    .plan__footer{
-        width: 200px;
+        width: 350px;
     }
 
     .testimonial__description {
