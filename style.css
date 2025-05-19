@@ -1275,6 +1275,13 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
         width: 350px;
     }
 
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .testimonial__title {
         text-align: center;
         font-size: 16px;
@@ -1298,12 +1305,35 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
     .testimonial__section {
         text-align: center;
-        font-size: 14px;
-        max-width: 380px;
+        font-size: 16px;
+    }
+
+    .start__row {
+        flex-direction: column;
+    }
+
+    .start__text {
+        text-align: center;
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .start__buttons {
+        width: auto;
+        margin-top: 24px;
+    }
+
+    .start__button {
+        padding: 16px 32px;
+    }
+
+    footer {
+        padding: 80px 32px;
     }
 
     .footer__links {
         justify-content: flex-start;
+        flex-wrap: wrap;
     }
 
     .footer__column {
@@ -1327,6 +1357,11 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
     .footer__social--link:first-child {
         margin-left: 0px;
+    }
+
+    .row--footer {
+        padding: 0;
+        padding-bottom: 32px;
     }
 
 }
