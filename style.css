@@ -10,6 +10,10 @@ section {
     padding: 0 32px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -1115,6 +1119,35 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
         display: block;
         background-color: transparent;
         border: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .header__description--p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .header__email--input {
+        align-items: center;
+    }
+
+    .header__description {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__customers {
+        margin-top: 48px;
+    }
+
+    .customer__logos {
+        padding: 0;
     }
 
     .header__row {
