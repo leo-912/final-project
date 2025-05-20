@@ -1116,6 +1116,11 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
         background-color: transparent;
         border: none;
     }
+
+    .header__row {
+        flex-direction: column;
+        align-items: center;
+    }
     
     .features {
         justify-content: center;
