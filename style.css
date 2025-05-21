@@ -178,6 +178,7 @@ header .row {
 
 .header__description--p {
     margin: 32px 0;
+    color: #243e63;
 }
 
 .header__email {
@@ -1123,12 +1124,16 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
 
     h1 {
         font-size: 30px;
-        width: 300px;
     }
 
     .header__description--p {
         font-size: 16px;
         margin: 20px 0;
+    }
+
+    .header__email {
+        padding: 0;
+        max-width: 360px;
     }
 
     .header__email--input {
@@ -1140,6 +1145,12 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .header__logo {
+        width: 512px;
     }
 
     .header__customers {
@@ -1147,7 +1158,8 @@ SMALL PHONES, TABLETS, LARGE SMATPHONES
     }
 
     .customer__logos {
-        padding: 0;
+        padding: 0 32px;
+        margin-bottom: 48px;
     }
 
     .header__row {
